@@ -13,6 +13,6 @@ git clone https://github.com/adligo/pub-keys.adligo.org.git
 cd ~/Downloads
 sha512sum VirtualBox-7.2.6a-172322-Win.exe > VirtualBox-7.2.6a-172322-Win.exe.sha512
 cat  VirtualBox-7.2.6a-172322-Win.exe.sha512
-diff VirtualBox-7.2.6a-172322-Win.exe.sha512 ~/pub-keys.adligo.org.git/pub-keys/org/virtualbox/www/wiki/Downloads/
+diff VirtualBox-7.2.6a-172322-Win.exe.sha512 ~/pub-keys.adligo.org/pub-keys/org/virtualbox/www/wiki/Downloads/VirtualBox-7.2.6a-172322-Win.exe.sha512 
 
 ```
