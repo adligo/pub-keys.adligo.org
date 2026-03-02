@@ -7,7 +7,7 @@ Note Code Blocks appears to be a Eclipse Clone
 Open a browser and download it
 
 ```
-sudo apt install build-essential g++
+sudo apt install build-essential g++ gcc
 sudo apt install codeblocks codeblocks-contrib
 codeblocks &
 ```
