@@ -1,6 +1,6 @@
 # pub-keys.adligo.org
 
-Although this project is far from a Certificate Authority, it serves a similar purpose by tracking various public keys that are used in code signing from various sources.
+Although this project is far from a Certificate Authority, it serves a similar purpose by tracking various public keys that are used in code signing from various sources.  This project also has checksums for code and tools that may or may not be cryptographically signed.
 
 # pub-keys directory
 
@@ -21,12 +21,19 @@ You can now see if you get a different public key from Hashicorp in the future b
   wget -O latest-hashicorp.asc https://apt.releases.hashicorp.com/gpg
   # No differences should exist, if they do either hashicorp changed it's key or got hacked
   diff latest-hashicorp.asc pub-keys.adligo.org/pub-keys/com/hashicorp/releases/apt/2026-02-27.asc
-  # Alternative check 
+  # Alternative check
   md5sum latest-hashicorp.asc > latest-hashicorp.asc.md5
   cat latest-hashicorp.asc.md5
   # These should have different file names but the same md5 checksum
   diff latest-hashicorp.asc.md5 pub-keys.adligo.org/pub-keys/com/hashicorp/releases/apt/2026-02-27.asc.md5
 ```
+
+### [Tools List](TOOLS_LIST.md)
+
+The following list of tools has been tracked this way;
+[TOOLS_LIST.md](TOOLS_LIST.md)
+
+### Comments
 
 Currently most code signing certificates rotate every 15 months (460 days);
 
