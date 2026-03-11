@@ -13,5 +13,3 @@ diff WisprFlowSetup-v1.4.517.exe.sha512 ~/pub-keys.adligo.org/pub-keys/ai/wisprf
 
 
 ```
-
-diff WisprFlowSetup-v1.4.517.exe.sha512 ~/work/jse-org/pub-keys.adligo.org/pub-keys/ai/wisprflow/downloads/WisprFlowSetup-v1.4.517.exe.sha512
