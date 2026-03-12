@@ -8,6 +8,6 @@ sha512sum google-chrome-stable_current_amd64.deb > google-chrome-stable_current_
 
 cat google-chrome-stable_current_amd64.deb.sha512 
 
-
+diff google-chrome-stable_current_amd64.deb.sha512 ~/pub-keys.adligo.org/pub-keys/com/google/www/chrome/dr/download/google-chrome-stable_current_amd64.deb.sha512
 
 ```
